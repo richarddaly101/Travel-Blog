@@ -1,0 +1,217 @@
+/*CSS Code spanning all pages*/
+
+
+body {
+  background: whitesmoke;
+}
+h1, h2, p, li {
+  color: black;
+  font-family:"Times New Roman", Times, serif;
+    
+    
+}
+
+.headtitle{color:aliceblue;
+           font-style: italic;
+           position: relative;
+           left: 30px;
+}
+
+          /* the below code for my header/footer was referenced from 
+          https://www.w3schools.com/css/css_website_layout.asp */
+
+.footer{
+  padding: 10px;
+  background-color: black;
+  text-align: right;}
+
+#footer{color: white;
+        font-style: italic}
+
+.header{
+    position:static;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    }
+
+.logo{height:50px;
+    width:50px;
+    float:right;
+    }
+
+a.hover {cursor: pointer}
+
+          /* the below code for my navgiation bar was referenced from 
+          https://www.w3schools.com/css/css_navbar.asp */
+
+ul.navigation {
+  list-style-type: none;
+  padding: 5px;
+  position: absolute;
+  border: 2px solid grey;
+  background-color: aliceblue;
+}
+
+li.navigate{display: inline-block;
+            border-right: 1px solid white}
+
+li:last-child {
+    border-right: none;}
+
+li a {
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding:10px 10px;
+  background-color: black}
+
+/*Homepage Code*/
+
+p.intro{max-width: 500px; 
+        margin:auto;
+        margin-bottom: 40px;
+        border: 5px solid grey;
+        padding:10px;
+        background-color: azure}
+
+h2{text-align:center;
+   text-decoration:underline;
+   }
+
+
+
+
+
+h1.main-heading{font-family: "Times New Roman", Times, serif;
+              text-transform: capitalize;
+              color: black;
+              margin-bottom: 0;
+              text-decoration:underline;
+              line-height: 3;
+              text-align: center;               
+}
+
+          /* the below code for my columns was referenced from
+          https://www.w3schools.com/css/css_inline-block.asp */
+
+
+
+#wrapper{margin:auto; width:1000px}
+
+.countryimage{ margin:45px;
+              border:5px solid grey;}
+
+.country{float: left;
+    border: 10px solid grey;
+    padding: 20px;
+    margin: 30px;
+    background-color: azure;
+}
+
+.column{display:inline-block; width:33%}
+
+          /* the below code for making my columns more responsive was referenced from
+          https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+
+@media only screen and (max-width: 600px) {
+    .column{width:100%}
+    
+}
+
+/*Itinenary Page Code*/
+
+table{margin: 0px auto;
+}
+
+img.itinenary{ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:70%}
+
+
+li.text{margin:30px;
+        border: 1px solid grey;
+        padding:10px;
+        background-color: azure;}
+
+/*Budget Page Code*/
+
+p.text{
+        margin:30px;
+        border: 1px solid grey;
+        padding:10px;
+        background-color: azure}
+
+td:nth-child(odd) {
+  background-color: lightgray;
+}
+
+th, tr, td {
+    text-align: center;
+    padding: 8px;
+    background-color: white;
+}
+
+th {
+  background-color: lightcyan;
+}
+
+/*Highlights Page Code*/
+
+.high{overflow: auto;
+      background-color: azure;
+      border: 3px solid grey;
+      margin:20px;
+      padding: 10px}
+
+
+img.highlights
+  {width:300px;
+      height:300px;
+      float:right; 
+      margin-left:20px;
+      margin-bottom: 20px;
+      border: 2px solid grey;
+    }
+
+
+/*Gallery Page Code*/
+
+         /* the below code for my gallery was referenced from
+         https://www.w3schools.com/css/css_image_gallery.asp */
+
+.container2{max-width: 1400px;
+ margin:auto;
+ overflow:auto;
+ }
+
+
+div.gallery {
+  margin: 45px;
+  padding: 20px;
+  border: 5px solid grey;
+  float: left;
+  width: 300px;
+
+  
+}
+
+
+div.gallery img {
+  width: 100%;
+  height: 300px;
+ 
+}
+
+div.gallery img:hover{opacity: 0.5;}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    border: 3px solid grey;
+    height:60px;}
+    
+div.video{;
+text-align: center;
+}

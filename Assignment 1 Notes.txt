@@ -1,0 +1,37 @@
+1. Links to both your own pages and external webpages:
+Home page - flag images holds links to wikitravel pages for countries.
+Navigation bar links to other pages on website.
+
+2. A navigation bar:
+Included.
+ 
+3. At least one table:
+In Budgeting page.
+
+4. At least one list (ordered or unordered):
+List used in navigation bar and itinenary page for text.
+
+5. At least one local or embedded video:
+Video below image gallery on last page.
+ 
+6. At least four CSS3 and four HTML5 elements:
+I used lists, headings, paragraphs and images for HTML. I also used margin, border, text align and display for CSS.
+
+7. Make use of the CSS positional properties (e.g. position, float):
+Hightlight page - Images floated to right of text with overflow used to keep consistency.
+Navigation bar positioned absolute. 
+Main heading - "Asia and back again" positioned relative to allow me to center it to middle of page.
+
+8. Make use of both inline and block elements:
+Display -  Inline block used to make navigation bar horizontal.
+Homepage - Inline block used to orient images so they don't interrupt text margins/paddings.
+Image in itinenary page changed to block element using display property to keep centred.
+
+9: Explored additional features of HTML and CSS:
+Homepage - Used wrapper id and inline block to make 3 even columns. 
+Highlights - overflow used to ensure images don't spill out of the div boxes they are contained in.
+Homepage - @media used to make page more responsive when minimized.
+Gallery - overflow used again to keep images and video separate. Opacity hover added to when cursor over an image, and
+description under each image added.
+Logo inserted in header bar.
+
